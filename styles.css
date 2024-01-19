@@ -9,7 +9,7 @@ img {
     margin-top: -100px;
     margin-left: 20px;
     border-radius: 50%;
-    
+
 }
 
 ul li {
@@ -17,6 +17,7 @@ ul li {
     text-align: ;
 }
 
-ul li.hover {
-    color: red;
+.link:hover{
+    color: rgb(255, 115, 0);
+    text-shadow: 3px;
 }
