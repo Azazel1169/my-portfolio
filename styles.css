@@ -1,23 +1,60 @@
-header h1 {
-    text-align: center;
-    font-size: 50px;
-    color: rgb(63, 0, 157);
-    text-shadow: 3px 5px gray;
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-img {
-    width: 100px;
-    margin-top: -100px;
-    margin-left: 20px;
-    border-radius: 50%;
+
+/* Base Styles */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    min-height: 500px'';
+}
+
+/* Normal style */
+.header {
+    background-color: black;
+}
+
+.header_content {
+    display: flex;
+}
+
+.logo {
 
 }
 
-ul li {
-    font-size: 25px;
-    text-align: ;
+.logo_img {
+    height: 50px;
 }
 
-.link:hover{
-    color: rgb(255, 115, 0);
-    text-shadow: 3px;
+.nav {
+
+}
+
+.nav-list {
+
+}
+
+.nav_item {
+
+}
+
+.nav_link {
+    color: silver;
+
+}
+.btn {
+    color: silver;
 }
